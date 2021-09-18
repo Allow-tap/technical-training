@@ -2,7 +2,7 @@ FROM ubuntu
 RUN apt-get update
 RUN apt-get -y upgrade 
 RUN apt-get install -y git 
-RUN apt-get install -y python-pip
+RUN apt-get install -y pip
 RUN pip install --upgrade pip
 RUN pip install flask
 RUN apt-get install -y cowsay
